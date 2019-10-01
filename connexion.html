@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Germania+One&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="connexion.css">
 	<title>Connexion</title>
 </head>
 <body>
-
+	<form>	
+		<label for="pseudo">Pseudonyme :</label><input id="pseudo" type="text" name="pseudo" placeholder="MonPseudo" autofocus required>
+		<br>
+		<label for="pass">Mot de passe :</label><input type="password" id="pass" name="motdepasse" placeholder="xxxxxxxxxx" required>
+		<br>
+		<input id="env" type="submit" value="Se connecter">
+		<br>
+		<div>
+			<a href="inscription.html">Inscription</a>
+			<a href="motdepasse.html">J'ai oublié mon mot de passe</a>
+		</div>
+	</form>
 </body>
 </html>
