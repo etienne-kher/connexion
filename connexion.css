@@ -97,16 +97,12 @@ fieldset{
 	margin-right: -158px;
 	margin-left: 8px;
 }
-.fiediv{
-	display: flex;
-}
-/*mp*/
+.fiediv{display: flex;}
 h1{
 	width: 430px;
 	text-align: center;
 	margin: 15px auto auto;
 	font-size: 40px;
-	color:#EDDD87;
 }
 .m-lab{
 	margin-left: 15px;
