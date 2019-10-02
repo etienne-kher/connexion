@@ -22,7 +22,7 @@
 		<br>
 		<label for="prenom">Prénom :</label><input id="prenom" type="text" name="prenom" placeholder="MonPrenom">
 		<br>
-		<label for="sex">Sexe :</label><input type="radio" name="sexe" id="sex" value="M" checked >Mâle<input type="radio" name="sexe" id="sex" value="F">Femmelle
+		<label for="sex">Sexe :</label><input type="radio" name="sexe" class="sex" value="M" checked >Mâle<input type="radio" name="sexe" class="sex" value="F">Femelle
 		<br>
 		<label for="lvlEtu">Votre niveau d'étude:</label>
 			<select id="lvlEtu">
@@ -40,7 +40,7 @@
        required>
        <br>
        <label id="labTexte" for="texte">Parler nous de vous :</label>
-			<input type="text"  id="texte" name="text" placeholder="Mon texte">
+			<textarea rows="4" cols="76" id="texte" name="text" placeholder="Mon texte" ></textarea>
 			<br>
 			<fieldset>
 				<legend>Veuillez sélectionner vos centre d'intérêts :</legend>
@@ -64,7 +64,7 @@
     		</fieldset>
     		<br>
 		
-			<input id="env" type="submit" value="S'inscrire">
+			<a id="i-a"href="connexion.html"><input id="env" type="submit" value="S'inscrire"></a>
 	</form>
 </body>
 </html>
