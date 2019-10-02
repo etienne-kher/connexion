@@ -14,22 +14,37 @@ form{
     border-width: 4px;
     animation: descente 1s;
     animation-iteration-count: 1;
+    color:#EDDD87;
 
 }
-a{text-decoration: none;}
-.c-lab{
+label{
 	color:#EDDD87;
-	font-size: 46px;
+	font-size: 20px;
 	display: block;
 	width: 290px;
 	float: left;
+	margin-top: 29px;
+	margin-left:20px;
+}
+input{
+	font-size: 20px;
+	margin-top: 29px;
+	font-family: 'Germania One', cursive;
+}
+a{text-decoration: none;}
+select{
+	margin-top:31px;
+	font-family: 'Germania One', cursive;
+	font-size: 20px;
+}
+.c-lab{
+	font-size: 46px;
 	margin-top: 24px;
 	margin-left:20px;
 }
 .c-inp{
 	font-size: 30px;
 	margin-top: 35px;
-	font-family: 'Germania One', cursive;
 }
 #env{
 	margin-inline: auto;
@@ -52,33 +67,12 @@ a{text-decoration: none;}
 	margin: auto 60px;
 	color: #F037C4;
 }
-
-
-
 #i-for{
 	height:1068px;
 }
-label{
-	color:#EDDD87;
-	font-size: 20px;
-	display: block;
-	width: 290px;
-	float: left;
-	margin-top: 29px;
-	margin-left:20px;
-}
-input{
-	font-size: 20px;
-	margin-top: 29px;
-	font-family: 'Germania One', cursive;
-}
 #mail{width: 230px;}
 .sex{margin-left: 25px;}
-select{
-	margin-top:31px;
-	font-family: 'Germania One', cursive;
-	font-size: 20px;
-}
+
 #phone{width: 120px;}
 #labTexte{float: none;}
 #texte{
@@ -99,13 +93,9 @@ fieldset{
 	border-color: #BD0090;
     border-width: 4px;
 }
-
 .i-fielab{
 	margin-right: -158px;
 	margin-left: 8px;
-}
-.i-chek{
-
 }
 .fiediv{
 	display: flex;
@@ -122,13 +112,11 @@ h1{
 	margin-left: 15px;
 	margin-right: -140px;
 	font-size: 40px;
-
 }
 #email{
 	font-size: 40px;
 	width: 410px;
 }
-
 @keyframes descente {
   0% { transform: translate(0px, -900px); }
   10% { transform: translate(0px, -750px) ; }
