@@ -7,8 +7,47 @@
 	<title>Inscription</title>
 </head>
 <body>
-	<form>
-	
+	<form action="çasertàrienmaisbon.php">
+		<label for="pseudo">Pseudonyme :</label><input id="pseudo" type="text" name="pseudo" placeholder="MonPseudo" autofocus required>
+		<label for="pass">Mot de passe :</label><input type="password" id="pass" name="motdepasse" placeholder="xxxxxxxxxx" required>
+		<label for="repass">Confirmer mot de passe:</label><input type="password" id="repass" name="remotdepasse" placeholder="xxxxxxxxxx" required>
+		<label for="naissance">Veuiller rentrer votre date de naissance :</label><input type="date" name="naissance" id="naissance" max="2001-02-08">
+		<label for="mail">Em@il :</label><input type="email" id="mail" name="email" required>
+		<label for="nom">Nom :</label><input id="nom" type="text" name="nom" placeholder="MonNom">
+		<label for="prenom">Prénom :</label><input id="prenom" type="text" name="prenom" placeholder="MonPrenom">
+		<label for="sex">Sexe :</label><input type="radio" name="sexe" id="sex" value="M" checked >Mâle<input type="radio" name="sexe" id="sex" value="F">Femmelle
+		<label for="lvlEtu">Votre niveau d'étude:</label>
+			<select id="lvlEtu">
+    			<option value="0">Sans diplôme</option>
+    			<option value="1">Brevet</option>
+    			<option value="2">Bac</option>
+    			<option value="3">Dut</option>
+    			<option value="4">Licence</option>
+    			<option value="5">Master</option>
+    			<option value="6">Doctorat</option>
+			</select>
+		<label for="phone">Telephone :</label>
+		<input type="tel" id="phone" name="phone"
+       required>
+       <label for="texte">Parler nous de vous :</label>
+			<input type="textarea" id="texte" name="text" placeholder="Mon texte">
+		<fieldset>
+			<legend>Veuillez sélectionner vos centre d'intérêts :</legend>
+			<label for="prog">Programation</label>
+			<input type="checkbox" id="prog" name="interet" value="prog">
+			<label for="mus">Musique</label>
+			<input type="checkbox" id="mus" name="interet" value="mus">
+			<label for="film">Filme</label>
+			<input type="checkbox" id="film" name="interet" value="film">
+			<label for="pol">Politique</label>
+			<input type="checkbox" id="pol" name="interet" value="pol">
+			<label for="jar">Jardinage</label>
+			<input type="checkbox" id="jar" name="interet" value="jar">
+			<label for="jeu">Jeux Vidéos</label>
+			<input type="checkbox" id="jeu" name="interet" value="jeu">
+    	</fieldset>
+		</div>
+		<input id="env" type="submit" value="S'inscrire">
 	</form>
 </body>
 </html>
